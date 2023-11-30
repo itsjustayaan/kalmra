@@ -59,55 +59,24 @@ header a:hover {
   height: auto;
 }
 
-/* <!DOCTYPE html>
-<html>
-  <head>
-    <title>My E-Commerce Site</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <h1>My Online Store</h1>
-    </header>
-    <main>
-      <section class="product-list">
-        <!-- Product 1 -->
-        <!-- <article class="product">
-          <img src="images/product1.jpg" alt="Product 1" />
-          <h2>Product 1 Name</h2>
-          <p>Product 1 Description</p>
-          <button>Add to Cart</button>
-        </article> -->
-        <!-- Repeat for each product -->
-      </section>
-    </main>
-    <footer>
-      <p>© 2023 My Online Store</p>
-    </footer>
-    <script src="script.js"></script>
-  </body>
-</html> */
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  margin-bottom: 20px; /* Add some space between items */
+}
 
-/* <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My E-Commerce Site</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <h1>My E-Commerce Store</h1>
-    </header>
-    <main>
-      <section id="product-list">
-        <!-- Products will be listed here -->
-      </section>
-    </main>
-    <footer>
-      <p>&copy; 2023 My E-Commerce Store</p>
-    </footer>
-    <script src="script.js"></script>
-  </body>
-</html> */
+.addonsBox {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.addon-item {
+  padding: 2rem;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  margin-bottom: 20px; /* Add some space between items */
+  width: 60%;
+}

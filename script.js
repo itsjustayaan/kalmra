@@ -1,3 +1,7 @@
+window.addEventListener("load", () => {
+  localStorage.clear();
+  console.log("Local storage cleared on page refresh");
+});
 const products = [
   {
     id: 1,
