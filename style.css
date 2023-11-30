@@ -3,7 +3,15 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
+
+main {
+  flex: 1;
+}
+
 header {
   display: flex;
   text-align: start;
@@ -16,6 +24,7 @@ header {
 footer {
   text-align: center;
   padding: 1em 0;
+  align-items: flex-end;
 }
 header,
 footer {
@@ -41,6 +50,12 @@ header a:hover {
   padding: 20px;
 }
 
+.bigDiv {
+  background-size: cover; /* Cover the entire area of the div */
+  background-position: center; /* Center the background image */
+  /* Add other styling as needed, like height */
+}
+
 .product {
   background-size: cover; /* Cover the entire div */
   background-position: center;
@@ -50,6 +65,7 @@ header a:hover {
   text-align: center;
   transition: box-shadow 0.3s ease;
   color: chocolate;
+  background-color: #333;
 }
 .product:hover {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Example box shadow */
